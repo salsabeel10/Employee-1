@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply bg-[#6f74f6]  text-white;
+}
+.btn:hover {
+  @apply bg-[#6F73F6]/80 text-white;
+}
+.btn-non{
+  @apply bg-[#E9EEFA] text-[#6F73F6];
+}
